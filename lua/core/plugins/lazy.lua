@@ -19,6 +19,9 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 require("lazy").setup({
+    -- colorschemes
+  { "catppuccin/nvim", name = "catppuccin" },
+
 
 })
 
