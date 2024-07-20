@@ -22,7 +22,6 @@ require("lazy").setup({
     -- colorschemes
   { "catppuccin/nvim", name = "catppuccin" },
 
-
     -- file explorer
   {
     "nvim-tree/nvim-tree.lua",
@@ -43,7 +42,6 @@ require("lazy").setup({
     "nvim-telescope/telescope.nvim", branch = "0.1.x",
     dependencies = { "nvim-lua/plenary.nvim" }
   },
-
 
 })
 
