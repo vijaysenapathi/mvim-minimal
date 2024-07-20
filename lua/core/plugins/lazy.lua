@@ -43,5 +43,12 @@ require("lazy").setup({
     dependencies = { "nvim-lua/plenary.nvim" }
   },
 
+  "numToStr/Comment.nvim", -- Commenting
+  "windwp/nvim-autopairs", -- For auto pairing braces
+
+  -- Git tools
+  "tpope/vim-fugitive",
+  { 'sindrets/diffview.nvim', dependencies = 'nvim-lua/plenary.nvim' },
+
 })
 
