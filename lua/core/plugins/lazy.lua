@@ -38,5 +38,12 @@ require("lazy").setup({
   -- tab line
   'kdheepak/tabline.nvim',
 
+    -- fuzzy searcher
+  {
+    "nvim-telescope/telescope.nvim", branch = "0.1.x",
+    dependencies = { "nvim-lua/plenary.nvim" }
+  },
+
+
 })
 
