@@ -23,5 +23,20 @@ require("lazy").setup({
   { "catppuccin/nvim", name = "catppuccin" },
 
 
+    -- file explorer
+  {
+    "nvim-tree/nvim-tree.lua",
+    dependencies = { "nvim-tree/nvim-web-devicons", lazy=true }
+  },
+
+  -- status line
+  {
+    "nvim-lualine/lualine.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons", lazy = true }
+  },
+
+  -- tab line
+  'kdheepak/tabline.nvim',
+
 })
 
